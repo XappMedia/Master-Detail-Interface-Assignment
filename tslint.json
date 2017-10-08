@@ -1,0 +1,104 @@
+{
+    "extends": [
+        "tslint-react"
+    ],
+    "rules": {
+        "class-name": true,
+        "curly": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "cyclomatic-complexity": [
+            true
+        ],
+        "forin": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-static-field",
+                    "protected-static-field",
+                    "private-static-field",
+                    "instance-field",
+                    "public-constructor",
+                    "protected-constructor",
+                    "private-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "no-construct": true,
+        "no-magic-numbers": true,
+        "no-duplicate-variable": true,
+        "no-eval": true,
+        "no-internal-module": true,
+        "no-trailing-whitespace": true,
+        "no-duplicate-super": true,
+        "no-var-keyword": true,
+        "no-string-throw": true,
+        "prefer-method-signature": true,
+        "object-literal-sort-keys": true,
+        "only-arrow-functions": [
+            true,
+            "allow-declarations",
+            "allow-named-functions"
+        ],
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "no-null-keyword": true,
+        "switch-default": true,
+        "ordered-imports": [
+            true
+        ],
+        "jsx-no-lambda": true,
+        "jsx-alignment": false,
+        "jsx-no-multiline-js": false,
+        "jsx-boolean-value": false,
+        "jsx-wrap-multiline": false
+    }
+}
